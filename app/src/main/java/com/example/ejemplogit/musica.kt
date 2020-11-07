@@ -9,7 +9,7 @@ class musica : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_musica)
-        botonaso.setOnClickListener{
+        fresco.setOnClickListener{
             Toast.makeText(this,"Estas fresco", Toast.LENGTH_LONG).show()
         }
     }

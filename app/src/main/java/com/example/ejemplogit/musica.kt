@@ -10,7 +10,7 @@ class musica : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_musica)
         fresco.setOnClickListener{
-            Toast.makeText(this,"Estas fresco", Toast.LENGTH_LONG).show()
+            Toast.makeText(this,"Estás fresco", Toast.LENGTH_LONG).show()
         }
     }
 }
